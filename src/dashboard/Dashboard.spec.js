@@ -13,7 +13,7 @@ beforeEach(() =>{
   wrapper = rtl.render(<Dashboard />);
 })
 
-describe('Dashboard functionality', () =>{
+describe('Dashboard component', () =>{
 
   test('gate starts open', () => {
     expect(wrapper.queryByText(/open/i)).toBeInTheDocument();
